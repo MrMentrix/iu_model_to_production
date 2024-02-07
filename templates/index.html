@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="/upload" enctype="multipart/form-data">
+        <!-- File Upload -->
+        <div class="form-group">
+            <label for="inputFile">File Input</label>
+            <input class="form-control-file" type="file" name="inputFile" multiple>
+        </div>
+
+        <!-- Submit -->
+        <button class="btn btn-primary" type="submit">Submit</button>
+    </form>
+
+    <form method="GET" action="/status" enctype="multipart/form-data">
+        <input type="number" name="image_id">
+        <button class="btn btn-status" type="submit">Get Status</button>
+    </form>
+
+    <a href="/database"><button class="btn btn-database">View Database</button></a>
+</body>
+</html>

@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Set styles for the body */
+body {
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Set styles for the form */
+form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+/* Set styles for the form labels */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Set styles for the form inputs */
+input[type="file"] {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Set styles for the form button */
+button[type="submit"] {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+/* Set styles for the status form */
+form:nth-of-type(2) {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+}
+
+/* Set styles for the status input */
+input[type="number"] {
+    margin-right: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+/* Set styles for the view database button */
+button.btn-database {
+    background-color: #28a745;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+/* Set styles for the status button */
+button.btn-status {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+button.btn-database {
+    display: block;
+    margin: 20px auto;
+}
